@@ -1,0 +1,3 @@
+wget --cookies=on --keep-session-cookies --save-cookies=/mnt/ramdisk/cookie.txt --progress=dot:mega "http://XXX.YYY.ZZZ.XXX:5080/dude/main.html?process=login&user=USER&password=watch2" -O /mnt/ramdisk/page.htm
+wget --cookies=on --load-cookies=cookie.txt --progress=dot:mega "http://XXX.YYY.ZZZ.XXX:5080/dude/main.html?process=login&user=USER&password=PASSWORD&devType=4294967295&mapFilter=4294967295&sList=3&page=devices" -O /mnt/ramdisk/down.htm
+wget --cookies=on --load-cookies=cookie.txt --progress=dot:mega "http://XXX.YYY.ZZZ.XXX:5080/dude/main.html?process=login&user=USER&password=PASSWORD&devType=4294967295&mapFilter=4294967295&sList=2&page=devices" -O /mnt/ramdisk/part.htm
