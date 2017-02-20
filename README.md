@@ -52,4 +52,8 @@ if not go to the devices, and select down for status, copy and paste that url in
 to run at startup edit crontab with  "crontab -e" and enter follow line at the end
 @reboot python /home/pi/Pimoroni/blinkt/examples/pidude2.py &
 
+you will need to add a new user to dude, set that user to "read-only" and only accessible from the IP address of the pi
+
+tested and working on Pi3 and Pi zero.
+
 
