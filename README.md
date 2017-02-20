@@ -39,6 +39,9 @@ to avoid the constant writes and reads to the memory card=
 here is a link with perfectly good instructions for setting up a persistent ramdisk, thought the persistent part isn't needed.
 http://www.observium.org/docs/persistent_ramdisk/
 
+check here to get the Blinkt strip installed and functional and test with example scripts
+https://learn.pimoroni.com/tutorial/sandyj/getting-started-with-blinkt
+
 SET - "time.sleep(300)" to the amount of time you want between updates. KEEP THIS HIGH IF YOU ARE NOT USING ABOVE RAMDRIVE
 
 if the wget.sh file doesn't get in with the py file, here it is below,
